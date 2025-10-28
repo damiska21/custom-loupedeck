@@ -1,0 +1,7 @@
+/home/damiska/programovani/loupedeck/.devenv/flake.json
+/home/damiska/programovani/loupedeck/.devenv.flake.nix
+/home/damiska/programovani/loupedeck/.env
+/home/damiska/programovani/loupedeck/devenv.local.nix
+/home/damiska/programovani/loupedeck/devenv.lock
+/home/damiska/programovani/loupedeck/devenv.nix
+/home/damiska/programovani/loupedeck/devenv.yaml

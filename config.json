@@ -1,0 +1,11 @@
+{
+  "name": "název configu",
+  "bindcommand": {
+    "0": "qalculate-qt",
+    "1": "anki"
+  },
+  "bindtype": {
+    "0": "shell",
+    "1": "shell"
+  }
+}

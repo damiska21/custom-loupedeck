@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "loupedeck": "^7.0.3"
+  }
+}
