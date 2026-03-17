@@ -1,5 +1,19 @@
 {
   "name": "název configu",
+  "keycolor": {
+    "0": "red",
+    "1": "green",
+    "2": "blue",
+    "3": "yellow",
+    "4": "cyan",
+    "5": "magenta",
+    "6": "white",
+    "7": "black",
+    "8": "orange",
+    "9": "purple",
+    "10": "pink",
+    "11": "brown"
+  },
   "bindcommand": {
     "0": "qalculate-qt",
     "1": "anki"

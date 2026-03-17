@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "canvas": "^3.2.1",
     "loupedeck": "^7.0.3"
   }
 }
