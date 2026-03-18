@@ -143,5 +143,6 @@ devenv.nix
 devenv.lock
 .devenv/
 .devenv.flake.nix
+devenv.yaml
 
 hh.mjs

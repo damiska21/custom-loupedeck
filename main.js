@@ -1,14 +1,22 @@
 import { discover } from "loupedeck";
 import { exec } from "node:child_process";
-import { createCanvas } from "canvas";
 //for simple access: https://github.com/foxxyz/loupedeck
+
 //read the config file
 import fs from "node:fs";
-import { setTimeout } from "node:timers/promises";
 var config = JSON.parse(fs.readFileSync("config.json", "utf8"));
-console.log("mnau");
+
+let loupedeck
+while (!loupedeck) {
+    try {
+        loupedeck = await discover()
+    } catch (e) {
+        console.error(`${e}. Reattempting in 3 seconds...`)
+        await new Promise(res => setTimeout(res, 3000))
+    }
+}
+
 // Observe connect events
-const loupedeck = await discover();
 loupedeck.on("connect", async () => {
   console.info("Connection successful!");
   loupedeck.setBrightness(0.5);
